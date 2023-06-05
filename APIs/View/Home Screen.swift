@@ -54,6 +54,9 @@ struct HomeScreenView: View {
                     NavigationLink(destination: LogoFinderAPIView(), label: {
                         Text("Logo Finder")
                     })
+                    
+                    Text("Test Commit")
+                    
                 } header: {
                     Text("APIs")
                 }
