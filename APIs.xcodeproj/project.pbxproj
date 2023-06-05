@@ -32,6 +32,8 @@
 		81C1CFE72A1292360079756B /* LoveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFE62A1292360079756B /* LoveCalculator.swift */; };
 		81C1CFED2A12A3810079756B /* PasswordGeneratorAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFEC2A12A3810079756B /* PasswordGeneratorAPIView.swift */; };
 		81C1CFEF2A12A4410079756B /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C1CFEE2A12A4410079756B /* PasswordGenerator.swift */; };
+		81F1015E2A2E39E000B86833 /* ContrastChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F1015D2A2E39E000B86833 /* ContrastChecker.swift */; };
+		81F101612A2E3A3000B86833 /* ContrastCheckerAPIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F101602A2E3A3000B86833 /* ContrastCheckerAPIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		81C1CFE62A1292360079756B /* LoveCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCalculator.swift; sourceTree = "<group>"; };
 		81C1CFEC2A12A3810079756B /* PasswordGeneratorAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorAPIView.swift; sourceTree = "<group>"; };
 		81C1CFEE2A12A4410079756B /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		81F1015D2A2E39E000B86833 /* ContrastChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastChecker.swift; sourceTree = "<group>"; };
+		81F101602A2E3A3000B86833 /* ContrastCheckerAPIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastCheckerAPIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 				81C1CFE62A1292360079756B /* LoveCalculator.swift */,
 				81C1CFEE2A12A4410079756B /* PasswordGenerator.swift */,
 				814196B82A13FEBF0044B9AF /* LogoBrand.swift */,
+				81F1015D2A2E39E000B86833 /* ContrastChecker.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				81C1CFE32A1290560079756B /* Love Calculator API */,
 				81C1CFEB2A12A3660079756B /* Password Generator API */,
 				814196B52A13FD660044B9AF /* Logo Finder API */,
+				81F1015F2A2E3A1400B86833 /* Contrast Checker API */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
@@ -232,6 +238,14 @@
 				81C1CFEC2A12A3810079756B /* PasswordGeneratorAPIView.swift */,
 			);
 			path = "Password Generator API";
+			sourceTree = "<group>";
+		};
+		81F1015F2A2E3A1400B86833 /* Contrast Checker API */ = {
+			isa = PBXGroup;
+			children = (
+				81F101602A2E3A3000B86833 /* ContrastCheckerAPIView.swift */,
+			);
+			path = "Contrast Checker API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +321,7 @@
 				81ADE88F2A0E631D004744A6 /* ShortenerAPIView.swift in Sources */,
 				81ADE8962A0E8590004744A6 /* Colors.swift in Sources */,
 				81A0E70D2A2DF410008EAF1E /* Hexa Color.swift in Sources */,
+				81F101612A2E3A3000B86833 /* ContrastCheckerAPIView.swift in Sources */,
 				81C1CFED2A12A3810079756B /* PasswordGeneratorAPIView.swift in Sources */,
 				81ADE88D2A0E630E004744A6 /* Shortener.swift in Sources */,
 				81C1CFDF2A128B4B0079756B /* SettingView.swift in Sources */,
@@ -323,6 +338,7 @@
 				81ADE8922A0E77B8004744A6 /* MoviesDatabaseAPIView.swift in Sources */,
 				81C1CFD82A10BC4F0079756B /* F1LiveMotorsportAPIView.swift in Sources */,
 				81ADE8712A0E3632004744A6 /* APIsApp.swift in Sources */,
+				81F1015E2A2E39E000B86833 /* ContrastChecker.swift in Sources */,
 				81C1CFEF2A12A4410079756B /* PasswordGenerator.swift in Sources */,
 				81ADE8942A0E79CA004744A6 /* MoviesDatabase.swift in Sources */,
 				81C1CFE52A12908A0079756B /* LoveCalculatorAPIView.swift in Sources */,
